@@ -1,0 +1,63 @@
+{
+    "platillos": [
+        {
+            "code": "P001",
+            "name": "Carne asada",
+            "price": 30000,
+            "active": true,
+            "activo": true
+        },
+        {
+            "code": "P002",
+            "name": "Pechuga a la plancha",
+            "price": 27000,
+            "active": true
+        },
+        {
+            "code": "P003",
+            "name": "Higado",
+            "price": 24000,
+            "active": true
+        }
+    ],
+    "bebidas": [
+        {
+            "code": "B001",
+            "name": "Coca-cola",
+            "price": 5000,
+            "active": true
+        },
+        {
+            "code": "B002",
+            "name": "Jarra con panelada",
+            "price": 10000,
+            "active": true
+        },
+        {
+            "code": "B003",
+            "name": "Botella con agua",
+            "price": 2000,
+            "active": true
+        }
+    ],
+    "adicionales": [
+        {
+            "code": "A001",
+            "name": "Salsa de la casa",
+            "price": 4000,
+            "active": true
+        },
+        {
+            "code": "A002",
+            "name": "Papitas fritas",
+            "price": 7000,
+            "active": true
+        },
+        {
+            "code": "A003",
+            "name": "PorciÃ³n de arroz",
+            "price": 11000,
+            "active": true
+        }
+    ]
+}
