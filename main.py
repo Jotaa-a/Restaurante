@@ -79,5 +79,7 @@ while True:
             editarMenu(MENU_DEL_RESTAURANTE)
             limpiar_pantalla()
         case 7:
-            print("chaito bro")
+            print("-"*20)
+            print("==  chaito bro  ==")
+            print("-"*20)
             break

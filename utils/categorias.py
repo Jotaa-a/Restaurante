@@ -1,12 +1,17 @@
 from utils.jsonHandler import *
 from utils.utilListas import *
+from tabulate import tabulate
 
 #      mostrar_categoria("PLATILLOS", menu_data["platillos"], pedido)
 def mostrar_categorias(categoria_nombre, items, pedido):
     print(f"\n=== {categoria_nombre.upper()} ===")  #
 
+    tabla_datos = []
     for i, opt in enumerate(items, 1):  
-        print(f"{i}. {opt['name']} --> ${opt['price']}")
+        tabla_datos.append([i, opt['name'], f"--> ${opt['price']:,}"])
+    headers = ["#", "Producto", "Precio"]
+    print(tabulate(tabla_datos, headers=headers, tablefmt="fancy_grid"))
+    print()
     try:   
         opt_elegida = int(input("¿Que desea ordenar? --> ")) 
         if 1 <= opt_elegida <= len(items):   

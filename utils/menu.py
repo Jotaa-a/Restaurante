@@ -2,10 +2,10 @@
 def menu(title, options):
     ind = 1 # -> se inicia el indice en 1
     choise = 0
-    print("===================================================")
+    print("===================================================  ")
     print(f" == {title} ==")
     print("===================================================")
-    print(" ==  Opciones de menús disponibles  == ")
+    print(" ==  Opciones de menús disponibles   == ")
     print("==")
 
     # Se recorre/itera la tupla de opciones y se imprime linea a linea
@@ -15,6 +15,7 @@ def menu(title, options):
 
     while True:
         # Se valida que el valor ingresado coincida con el pedido (enteros en este caso)
+
         try:
             # Se valida que el valor ingresado esté dentro del rango de opciones.
             choise = int(input("¿Qué desea hacer? --> "))
