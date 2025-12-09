@@ -1,1 +1,204 @@
-[{"date": "29/11/2025", "name": "Juan", "products": [{"code": "P002", "name": "Pechuga a la plancha", "price": 27000, "active": true}, {"code": "B002", "name": "Jarra con panelada", "price": 10000, "active": true}], "total": 37000}, {"date": "29/11/2025", "name": "Juancho", "products": [{"code": "P001", "name": "Carne asada", "price": 30000, "active": true}, {"code": "B001", "name": "Coca-cola", "price": 5000, "active": true}], "total": 35000}, {"date": "29/11/2025", "name": "Rocio", "products": [{"code": "B003", "name": "Botella con agua", "price": 2000, "active": true}], "total": 2000}]
+[
+    {
+        "date": "29/11/2025",
+        "name": "Juan",
+        "products": [
+            {
+                "code": "P002",
+                "name": "Pechuga a la plancha",
+                "price": 27000,
+                "active": true
+            },
+            {
+                "code": "B002",
+                "name": "Jarra con panelada",
+                "price": 10000,
+                "active": true
+            }
+        ],
+        "total": 37000
+    },
+    {
+        "date": "29/11/2025",
+        "name": "Juancho",
+        "products": [
+            {
+                "code": "P001",
+                "name": "Carne asada",
+                "price": 30000,
+                "active": true
+            },
+            {
+                "code": "B001",
+                "name": "Coca-cola",
+                "price": 5000,
+                "active": true
+            }
+        ],
+        "total": 35000
+    },
+    {
+        "date": "29/11/2025",
+        "name": "Rocio",
+        "products": [
+            {
+                "code": "B003",
+                "name": "Botella con agua",
+                "price": 2000,
+                "active": true
+            }
+        ],
+        "total": 2000
+    },
+    {
+        "date": "kfwbwnfg",
+        "name": "kajbdjaw",
+        "products": [
+            {
+                "code": "P002",
+                "name": "Pechuga a la plancha",
+                "price": 27000,
+                "active": true
+            }
+        ],
+        "total": 27000
+    },
+    {
+        "date": "asfd a",
+        "name": "dwafdaf",
+        "products": [
+            {
+                "code": "P002",
+                "name": "Pechuga a la plancha",
+                "price": 27000,
+                "active": true
+            },
+            {
+                "code": "A001",
+                "name": "Salsa de la casa",
+                "price": 4000,
+                "active": true
+            }
+        ],
+        "total": 31000
+    },
+    {
+        "date": "ad dwa ",
+        "name": "awda",
+        "products": [
+            {
+                "code": "P002",
+                "name": "Pechuga a la plancha",
+                "price": 27000,
+                "active": true
+            },
+            {
+                "code": "A001",
+                "name": "Salsa de la casa",
+                "price": 4000,
+                "active": true
+            },
+            {
+                "code": "A002",
+                "name": "Papitas fritas",
+                "price": 7000,
+                "active": true
+            },
+            {
+                "code": "A001",
+                "name": "Salsa de la casa",
+                "price": 4000,
+                "active": true
+            }
+        ],
+        "total": 42000
+    },
+    {
+        "date": "09/12/2025",
+        "name": "ad aw d",
+        "products": [
+            {
+                "code": "P001",
+                "name": "Pizza hawaiana",
+                "price": 29000,
+                "active": true
+            }
+        ],
+        "total": 29000
+    },
+    {
+        "date": "09/12/2025",
+        "name": "",
+        "products": [
+            {
+                "code": "P001",
+                "name": "Pizza hawaiana",
+                "price": 29000,
+                "active": true
+            },
+            {
+                "code": "A001",
+                "name": "Salsa de la casa",
+                "price": 4000,
+                "active": true
+            },
+            {
+                "code": "B001",
+                "name": "Coca-cola",
+                "price": 5000,
+                "active": true
+            }
+        ],
+        "total": 38000
+    },
+    {
+        "date": "09/12/2025",
+        "name": "",
+        "products": [
+            {
+                "code": "P001",
+                "name": "Pizza hawaiana",
+                "price": 29000,
+                "active": true
+            },
+            {
+                "code": "A001",
+                "name": "Salsa de la casa",
+                "price": 4000,
+                "active": true
+            },
+            {
+                "code": "B001",
+                "name": "Coca-cola",
+                "price": 5000,
+                "active": true
+            },
+            {
+                "code": "B003",
+                "name": "Botella con agua",
+                "price": 2000,
+                "active": true
+            }
+        ],
+        "total": 40000
+    },
+    {
+        "date": "09/12/2025",
+        "name": "",
+        "products": [
+            {
+                "code": "B001",
+                "name": "Coca-cola",
+                "price": 5000,
+                "active": true
+            },
+            {
+                "code": "B002",
+                "name": "Jarra con panelada",
+                "price": 10000,
+                "active": true
+            }
+        ],
+        "total": 15000
+    }
+]

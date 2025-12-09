@@ -1,4 +1,5 @@
 # Buscar/encontrar indice de un diccionario
+from datetime import datetime
 def findFile(dataList, key, value):
     info = {} # -> Crea un diccionario vacio para almacenar la informacion requerida
     for i in range(len(dataList)): # Recorre la lista en busca del indice (i) que se requiere 
@@ -7,3 +8,8 @@ def findFile(dataList, key, value):
             info["data"] = dataList[i] # Se asigna a dataList la data encontrada en el indice (i)
             break
     return info 
+
+def fechaFactura():
+    hoy = datetime.now().strftime("%d/%m/%Y")
+    return hoy
+    
