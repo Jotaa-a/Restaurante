@@ -1,21 +1,33 @@
 {
-    "platillos": [
+    "pizzas": [
         {
             "code": "P001",
             "name": "Pizza hawaiana",
-            "price": 29000,
+            "sizes": {
+                "personal": 9000,
+                "grande": 35000,
+                "familiar": 60000
+            },
             "active": true
         },
         {
             "code": "P002",
             "name": "Pizza carnivora",
-            "price": 27000,
-            "activo": true
+            "sizes": {
+                "personal": 9000,
+                "grande": 35000,
+                "familiar": 60000
+            },
+            "active": true
         },
         {
             "code": "P003",
-            "name": "Higado",
-            "price": 24000,
+            "name": "Pizza de la casa",
+            "sizes": {
+                "personal": 9000,
+                "grande": 35000,
+                "familiar": 60000
+            },
             "active": true
         }
     ],
@@ -48,14 +60,14 @@
         },
         {
             "code": "A002",
-            "name": "Papitas fritas",
+            "name": "Borde relleno de queso",
             "price": 7000,
             "active": true
         },
         {
             "code": "A003",
-            "name": "PorciÃ³n de arroz",
-            "price": 11000,
+            "name": "Extra de carnita",
+            "price": 10000,
             "active": true
         }
     ]
