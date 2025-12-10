@@ -35,7 +35,7 @@ def main():
                 dataBill = readFile(PIZZERIA_BILL)
                 info = findFile(dataBill, "name", findName)
                 if len(info.keys()) == 0:
-                    print("Cliente no encontrado ❎")
+                    print("Cliente no encontrado")
                     limpiar_pantalla()
                 else:
                     print("\n=== FACTURA ENCONTRADA ===")
@@ -53,7 +53,7 @@ def main():
                 limpiar_pantalla()
             case 6:
                 print("-"*20)
-                print("==  chaito bro 🌚 ==")
+                print("==  chaito bro ==")
                 print("-"*20)
                 break
 

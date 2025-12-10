@@ -29,9 +29,13 @@ def mostrar_categorias(categoria_nombre, items, pedido):
                 print("Saliendo....")
                 break
             else:
+                print("-"*20)
                 print("Opcion no válida")
+                print("-"*20)
         except ValueError:
+            print("-"*35)
             print("Solo se admiten valores numéricos")
+            print("-"*35)
         
 
 def mostrar_pizzas(categoria_nombre, items, pedido):
@@ -87,16 +91,26 @@ def mostrar_pizzas(categoria_nombre, items, pedido):
                                     print("continuando sin adicionales...")
                                     break
                             except ValueError:
+                                print("-"*20)
                                 print("Eleccion no válida")
+                                print("-"*20)
                             break
                         else:
+                            print("-"*20)
                             print("Tamaño no válido")
+                            print("-"*20)
                     except ValueError:
+                        print("-"*36)
                         print("Solo se admiten valores numéricos")
+                        print("-"*36)
             else:
+                print("-"*20)
                 print("Opcion no válida")
+                print("-"*20)
         except ValueError:
+            print("-"*36)
             print("Solo se admiten valores numéricos")
+            print("-"*36)
     print("Saliendo...")
 
 
@@ -133,7 +147,9 @@ def editarMenu(nameFile):
             break
 
     if not encontrado:
+        print("-"*30)
         print("Código no encontrado")
+        print("-"*30)
         return   
     print("="*50)
     print(f"Producto encontrado en: {categoria_encontrada}")
@@ -179,7 +195,9 @@ def editarMenu(nameFile):
         menu_data[categoria_encontrada][info['index']]['activo'] = (nuevo_estado.upper() == 'A')
 
     saveFile(nameFile, menu_data)
+    print("-"*35)
     print("\n✓ Menú actualizado exitosamente")   
+    print("-"*35)
 
 def validprecio():
     while True:
@@ -187,12 +205,16 @@ def validprecio():
             precio = int(input("Nuevo precio:"))
             return precio
         except ValueError:
+            print("-"*55)
             print("Precio no válido. Ingrese solo valores numericos...")
+            print("-"*55)
 
 def nueva_factura(ruta, pedido, ):
     while True:
         if len(pedido) == 0:
+            print("-"*30)
             print("No hay items en el pedido")
+            print("-"*30)
             limpiar_pantalla()
             break
         else:
@@ -214,6 +236,8 @@ def nueva_factura(ruta, pedido, ):
         for item in pedido:
             print(f"  ✔ {item['name']} - ${item['price']}")
         print(f"\nTOTAL: ${total}")
-        print("\n✓ Factura guardada exitosamente")               
+        print("-"*35)
+        print("\n✓ Factura guardada exitosamente") 
+        print("-"*35)              
         pedido.clear()
         break

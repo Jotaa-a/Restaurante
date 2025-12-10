@@ -14,5 +14,7 @@ def saveFile(fileName, data):
     jsonFile = open(fileName, "w", encoding='utf-8')
     jsonFile.write(dumps(data,  indent=4, ensure_ascii=False)) # -> convierte texto a json
     jsonFile.close()
-    print("Datos guardados con exito")   
+    print("-"*30)
+    print("Datos guardados con exito")
+    print("-"*30)   
     

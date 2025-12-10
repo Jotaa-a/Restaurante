@@ -20,9 +20,13 @@ def menu(title, options):
             # Se valida que el valor ingresado esté dentro del rango de opciones.
             choise = int(input("¿Qué desea hacer? --> "))
             if choise not in range(1,len(options)+1):
+                print("-"*42)
                 print("Opcion no válida, intente nuevamente...")
+                print("-"*42)
             else:
                 break
         except ValueError: # -> Si el valor ingresado no coincide con el solicitado, lo solicita nuevamente sin detener el programa
-            print("Sea serio ome, ponga un numero caremondá")
+            print("-"*45)
+            print("Sea serio ome, ponga un numero caremondá <3")
+            print("-"*45)
     return choise
